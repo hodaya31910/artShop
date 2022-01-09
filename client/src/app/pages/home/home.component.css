@@ -1,0 +1,44 @@
+.jumbotron {
+  background-color: rgba(250, 238, 226, 0.548);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.carousel-item {height: auto;width: auto;}
+
+
+.imgBac {
+  /* background-image: url(""); */
+  height: 800px;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding-top: 40px;
+}
+.imgBac p {
+  color: rgb(233, 224, 225);
+  /* margin-left: 30%;
+    margin-right: 50px; */
+  font-size: 35px;
+  /* text-shadow: 2px 2px black; */
+}
+
+.imgBac h1 {
+  font-size: 45px;
+}
+.rr {
+  background-color: azure;
+  margin: 5px;
+  border: 1px solid;
+}
+.b {
+  margin: 15px;
+  height: 100px;
+  width: 100px;
+}
+.img {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+}
