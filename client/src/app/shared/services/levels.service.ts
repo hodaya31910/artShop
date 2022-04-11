@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { levels } from '../modules/levels';
+import { levels } from '../models/levels.model';
 import { Observable } from 'rxjs';
 
 @Injectable({

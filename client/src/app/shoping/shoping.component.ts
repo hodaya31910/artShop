@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { products } from '../modules/products';
-import { ProductsService } from '../services/products.service';
-import { CategoriesService } from '../services/categories.service';
-import { LevelsService } from '../services/levels.service';
-import { categories } from '../modules/categories';
-import { levels } from '../modules/levels';
+import { products } from '../shared/models/products.model';
+import { ProductsService } from '../shared/services/products.service';
+import { CategoriesService } from '../shared/services/categories.service';
+import { LevelsService } from '../shared/services/levels.service';
+import { categories } from '../shared/models/categories.model';
+import { levels } from '../shared/models/levels.model';
 
 @Component({
   selector: 'app-shoping',
