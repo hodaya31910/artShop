@@ -1,6 +1,5 @@
 const express = require('express'),
-const app = express();
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const jwt = require('jsonwebtoken');
@@ -9,6 +8,7 @@ const request= require('request');
 app.use(bodyParser.json());
 dotenv.config();
 app.use('/', rout);
+// const app = express();
 
 server = require('http').Server(app),
 bodyParser = require('body-parser')
