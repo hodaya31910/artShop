@@ -1,10 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
     <div class="container-fluid">
         <a class="navbar-brand d-inline-flex" href="index.html">
-            <img class="d-inline-block" src="../assets/לוגו ללא משפט1.png" alt="logo" width="160" height="75"  />
+            <img class="d-inline-block" src="../assets/לוגו ללא משפט1.png" alt="logo" width="160" height="75" />
             <!-- <span class="text-1000 fs-0 fw-bold ms-2">Tapestry</span> -->
         </a>
-        <button class="navbar-toggler ml-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <button class="navbar-toggler ml-1" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -13,23 +14,15 @@
             <span class="navbar-toggler-icon"></span>
         </button> -->
         <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- <div class="navbar-nav me-auto mb-2 mb-lg-0" *ngFor="let item of this.links">
+
                 <li class="nav-item px-2">
-                    <a class="nav-link fw-medium" [routerLink]="['/ebaut']"> אודות</a>
+                    <a class="nav-link fw-medium" [routerLink]="['/',item.url]" routerLinkActive="active-menu-link">
+                        {{item.name}}</a>
 
                 </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link fw-medium" [routerLink]="['/shoping']">חנות</a>
 
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link fw-medium" [routerLink]="['/ebaut']"> עיצוב שולחן</a>
-
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link fw-medium" [routerLink]="['/contact']">צור קשר</a>
-                </li>
-            </ul>
+            </div> -->
             <form class="d-flex"><a class="text-1000" href="#!">
                     <svg class=" me-3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"

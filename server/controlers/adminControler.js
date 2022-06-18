@@ -1,7 +1,7 @@
-const Admin = require("../Models/admin");
-const Category = require("../Models/category");
-const Product = require("../Models/product");
-const User = require("../Models/user");
+const Admin = require("../moduls/admin");
+const Category = require("../moduls/category");
+const Product = require("../moduls/product");
+const User = require("../moduls/user");
 //create category
 const createCategory = async (req, res) => {
   console.log("create category");

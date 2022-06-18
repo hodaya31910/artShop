@@ -1,5 +1,5 @@
-const Category = require('../Models/category');
-const Product = require('../Models/product');
+const Category = require('../moduls/category');
+const Product = require('../moduls/product');
 
 //getAllCategory
 const getAllCategory=async (req, res) => {

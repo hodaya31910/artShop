@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  links = [
+    {url:'home',name:'בית'},
+    {url:'about',name:'חנות'},
+    {url:'about',name:'אודות'},
+    {url:'contact',name:'צור קשר'}
 
+  ]
   constructor() { }
 
   ngOnInit() {

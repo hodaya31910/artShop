@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ProductsService } from './shared/services/products.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,5 @@ import { ProductsService } from './shared/services/products.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'new';
-show:boolean=true
  
 }

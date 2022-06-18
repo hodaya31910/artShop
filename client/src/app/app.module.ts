@@ -53,8 +53,6 @@ import { LogInRegisterComponent } from './log-in-register/log-in-register.compon
 import { ShopingComponent } from './shoping/shoping.component';
 import { CartComponent } from './cart/cart.component';
 import { PaymentComponent } from './payment/payment.component';
-import { NavComponent } from './components/nav/nav.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductComponent } from './pages/product/product.component';
 
@@ -67,9 +65,6 @@ import { ProductComponent } from './pages/product/product.component';
     ShopingComponent,
     CartComponent,
     PaymentComponent,
-    NavComponent,
-    FooterComponent,
-    HomeComponent,
     ProductComponent,
 
   ],
