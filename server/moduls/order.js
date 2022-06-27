@@ -20,7 +20,7 @@ const userSchema = mongoose.Schema({
   ],
   createdAt: {
     type: String,
-    default: formattedDate(new Date()),
+    default: null,
   },
   updatedAt: {
     type: String,
@@ -33,13 +33,4 @@ const userSchema = mongoose.Schema({
 });
 module.exports = mongoose.model("User", userSchema);
 
-function formattedDate(d) {
-  let month = String(d.getMonth() + 1);
-  let day = String(d.getDate());
-  const year = String(d.getFullYear());
 
-  if (month.length < 2) month = `0${month}`;
-  if (day.length < 2) day = `0${day}`;
-
-  return `${month}/${day}/${year}`;
-}

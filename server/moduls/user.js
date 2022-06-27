@@ -21,14 +21,6 @@ const userSchema = mongoose.Schema({
     type: String,
     require,
   },
-
-  products: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Product",
-    },
-  ],
-
   createdAt: {
     type: String,
     default: formattedDate(new Date()),

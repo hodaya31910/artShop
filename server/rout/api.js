@@ -12,7 +12,7 @@ router.put("/updateProduct/", adminController.updateProduct);
 router.post("/createProduct", adminController.createProduct);
 router.delete("/deleteUser", adminController.deleteUser);
 //categoryController
-router.get("/getAllCategory", categoryController.getAllCategory);
+router.get("/getAllCategories", categoryController.getAllCategories);
 
 //userController
 router.post("/createUser", userController.createUser);

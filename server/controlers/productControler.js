@@ -3,8 +3,16 @@ const Product = require('../moduls/product');
 
 const getAllProducts=async (req, res) => {
     console.log("get all products");
+    let categoryId = req.body.categoryId;
+    let products;
     try {
-        let products = await Product.find();
+        if (categoryId) {
+            let category = await Product.findById(categoryId);
+            products=category.product
+        }
+        else {
+            products = await Product.find();
+        }
         if (products == null) {
             res.send("אין מוצרים להצגה ");
         }

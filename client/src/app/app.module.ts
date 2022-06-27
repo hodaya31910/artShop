@@ -1,28 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { from } from 'rxjs';
 import { MatIconModule } from '@angular/material/icon';
-import { AdminComponent } from './admin/admin.component';
+import {RouterModule, Routes} from '@angular/router';
 
-
+const routes: Routes = [
+  { path: '', loadChildren: () => import('./public/public.module').then(m => m.PublicModule) },
+  { path: '**', redirectTo: '' }
+];
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AdminComponent,
+    AppComponent
   ],
   imports: [
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
     BrowserModule,
-    AppRoutingModule,
+    RouterModule.forRoot(routes),
     MatIconModule,
   ],
   providers: [

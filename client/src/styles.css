@@ -1,41 +1,53 @@
-/* button{
-  color: #a11e4a;
-  background-color: #ccc;
-  border: 0ch;
-} */
 
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Karantina:wght@300&family=Rubik:ital,wght@0,560;1,300;1,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&family=Rubik:ital,wght@0,560;1,300;1,400&display=swap');*/
 .card {
   margin: 7px;
-}
-p {
-  font-size: 20px;
-}
-header {
-  margin-bottom: 25px;
 }
 html,
 body {
   direction: rtl;
   height: auto;
   margin: 0;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: Alef;
   text-align: right;
 }
-/* a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #8b3b20;
-
-} */
-/* label {
-  font-size: 30px;
-} */
-/* @font-face {
-  font-family: "Material Icons";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
-    format("woff2");
-} */
+.brown{
+  color: #893F04;
+}
+.bac-brown{
+  background-color: #893F04;
+}
+.light-brown{
+  color: #C67F43;
+}
+.bac-light-brown{
+  background-color: #C67F43;
+}
+.cream{
+  color: #F8F4F1;
+}
+.bac-cream{
+  background-color: #F8F4F1;
+}
+.pink{
+  color: #D49B7E;
+}
+.bac-pink{
+  background-color: #D49B7E;
+}
+.light-pink{
+  color: #DDB8A6;
+}
+.light-green{
+  background-color: #989E8B;
+}
+.green{
+  color: #7B876D;
+}
+.bac-green{
+  background-color: #7B876D;
+}
 
 .mat-icon {
   background-repeat: no-repeat;
@@ -44,44 +56,8 @@ body {
   height: 24px;
   width: 24px;
 }
-
-.material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;
-}
 p {
   direction: rtl;
 }
 
-h1 {
-  color: #ffce67;
-  font-family: yamSuf;
-}
-h2 {
-  color: #20c997;
-  font-family: yamSuf;
-}
-h3 {
-  color: #78c2ad;
-  font-family: yamSuf;
-}
-h4 {
-  color: #f3969a;
-  font-family: yamSuf;
-}
 
-a {
-  /* font-family: Arial, Helvetica, sans-serif; */
-  color: #8b3b20;
-  /* font-size: 30px; */
-}

@@ -24,10 +24,18 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              },
+              {
+                "input": "./node_modules/font-awesome/css/font-awesome.min.css"
+              },
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
