@@ -21,5 +21,5 @@ router.get("/getShoppingCart", userController.getShoppingCart);
 router.put("/addProduct", userController.addProduct);
 
 //productController
-router.get("product/getAllProducts", productController.getAllProducts);
+router.get("/products/getAllProducts", productController.getAllProducts);
 module.exports = router;

@@ -7,13 +7,13 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductsService {
-  url:string="http://localhost:37023//api/Products/";
+  url:string="localhost:4000/products/";
   productsInCart: Array<products>;
 
   constructor(private http:HttpClient) { }
   Getall():Observable<products[]>
   {
-    return this.http.get<products[]>(this.url+"GetAll")
+    return this.http.get<products[]>(this.url+"getAllProducts")
   }
   GetProductsByCodeCategory(id:number):Observable<products>
   {
