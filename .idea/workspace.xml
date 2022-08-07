@@ -2,42 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab1f91d0-0aa3-471a-b9ba-0028f221f96d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artShop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/nav/nav.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/home-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/home/home.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/shop/shop.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shop/shop.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/shop/shop.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shop/shop.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/shop/shop.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shop/shop.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/home/shop/shop.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shop/shop.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/public/public.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/public/public.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controlers/categoryControler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controlers/categoryControler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controlers/productControler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controlers/productControler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controlers/userControler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controlers/userControler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/moduls/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/moduls/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/moduls/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/moduls/category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/moduls/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/moduls/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/moduls/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/moduls/user.js" afterDir="false" />
@@ -2477,6 +2453,8 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/xdg-basedir/license" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/xdg-basedir/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/xdg-basedir/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/rout/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/rout/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/צילומי מסך.docx" beforeDir="false" />
     </list>
@@ -2496,18 +2474,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Ay9Cf8nceBbZMdO05hbT0j0pV0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\הודיה\artShop\client\src\assets" />
@@ -2525,6 +2509,8 @@
       <workItem from="1655970834410" duration="23351000" />
       <workItem from="1656366113501" duration="294000" />
       <workItem from="1656366458619" duration="29000" />
+      <workItem from="1659878070417" duration="105000" />
+      <workItem from="1659878260589" duration="232000" />
     </task>
     <servers />
   </component>
