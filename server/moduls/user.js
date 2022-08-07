@@ -1,40 +1,14 @@
 const mongoose = require("mongoose");
 const userSchema = mongoose.Schema({
-  firstName: {
-    type: String,
-  },
-
-  lastName: {
-    type: String,
-  },
-
-  email: {
-    type: String,
-    match: /(.+)@(.+){2,}\.(.+){2,}/i,
-  },
-
-  phone: {
-    type: String,
-  },
-
-  password: {
-    type: String,
-    require,
-  },
-  createdAt: {
-    type: String,
-    default: formattedDate(new Date()),
-  },
-
-  updatedAt: {
-    type: String,
-    default: null,
-  },
-
-  deletedAt: {
-    type: String,
-    default: null,
-  },
+  firstName: { type: String, require },
+  lastName: { type: String },
+  email: { type: String, match: /(.+)@(.+){2,}\.(.+){2,}/i, require },
+  phone: { type: String },
+  password: { type: String, require },
+  token: { type: String },
+  createdAt: { type: String, default: formattedDate(new Date()) },
+  updatedAt: { type: String, default: null },
+  deletedAt: { type: String, default: null },
 });
 module.exports = mongoose.model("User", userSchema);
 

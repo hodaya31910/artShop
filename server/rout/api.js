@@ -16,6 +16,7 @@ router.get("/getAllCategories", categoryController.getAllCategories);
 
 //userController
 router.post("/createUser", userController.createUser);
+router.post("/login", userController.login);
 router.put("/updateUser", userController.updateUser);
 router.get("/getShoppingCart", userController.getShoppingCart);
 router.put("/addProduct", userController.addProduct);

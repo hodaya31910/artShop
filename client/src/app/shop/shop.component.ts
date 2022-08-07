@@ -14,9 +14,9 @@ products: products[]
   constructor(private ProductsService: ProductsService) { }
 
   ngOnInit() {
-    this.ProductsService.Getall().subscribe(response => { this.products = response })  
-    console.log(this.products);
-    
+    this.ProductsService.Getall().subscribe(response =>{ this.products = response ; 
+        console.log(this.products);}
+    )      
   }
 
 }

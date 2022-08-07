@@ -15,7 +15,8 @@ const getAllProducts = async (req, res) => {
     if (products == null) {
       res.send("אין מוצרים להצגה ");
     }
-    return res.json({ status: 200, products: products });
+
+    return res.status(200).json(products);
   } catch (error) {
     res.status(500).json({ eror: error.message });
   }
