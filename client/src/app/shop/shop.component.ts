@@ -9,14 +9,14 @@ import { ProductsService } from '../shared/services/products.service';
 })
 
 export class ShopComponent implements OnInit {
-products: products[]
+products: products[];
 
-  constructor(private ProductsService: ProductsService) { }
+  constructor(private productsService: ProductsService) { }
 
   ngOnInit() {
-    this.ProductsService.Getall().subscribe(response =>{ this.products = response ; 
-        console.log(this.products);}
-    )      
+    this.productsService.Getall().subscribe(response => { this.products = response;
+                                                          console.log(this.products);
+    })
   }
 
 }

@@ -1,13 +1,30 @@
-<form [formGroup]="this.form" (ngSubmit)="submit()">
+<div class="mx-auto col-8 p-4">
+  <form [formGroup]="this.form" (ngSubmit)="submit()">
     <h2>צור קשר</h2>
     <div class="form-group">
-        <label class="vertical-align-top">שם מלא * </label>
-        <div class="d-inline-block">
-            <input type="text" class="form-control input-design " formControlName="name">
-            <small *ngIf="form.controls['name'].invalid && isSubmitting" class="text-danger">
-                הכנס שם
-            </small>
-        </div>
+      <label>שם מלא* </label>
+      <input type="text" class="form-control input-design " formControlName="name">
+      <small *ngIf="form.controls['name'].invalid && isSubmitted" class="text-danger">הכנס שם</small>
     </div>
-    <button type="submit" class="btn btn-primary">שלח</button>
-</form>
+    <div class="form-group">
+      <label>אימייל*</label>
+      <input type="text" class="form-control input-design " formControlName="email">
+      <div *ngIf="form.get('email')?.errors && form.touched">
+        הכנס כתובת מייל תקינה
+      </div>
+      <small *ngIf="form.controls['email'].invalid && isSubmitted" class="text-danger">הכנס כתובת אימייל</small>
+    </div>
+    <div class="form-group">
+      <label>נושא הפניה</label>
+      <input type="text" class="form-control input-design " formControlName="subject">
+      <small *ngIf="form.controls['name'].invalid && isSubmitted" class="text-danger">הכנס שם</small>
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" rows="6" placeholder="תוכן ההודעה" formControlName="massage"></textarea>
+      <small *ngIf="form.controls['name'].invalid && isSubmitted" class="text-danger">הכנס שם</small>
+    </div>
+
+    <button type="submit" class="btn bac-brown">.<i class="fa fa-send cream"></i></button>
+  </form>
+</div>
+

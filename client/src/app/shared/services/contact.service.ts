@@ -7,9 +7,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ContactService {
 
-  constructor(private http:HttpClient) { }
-  contact(contact):Observable<void>
-  {
-    return this.http.post<void>("contact/",contact);
+  constructor(private http: HttpClient) { }
+  contact(contact): Observable<any> {
+    return this.http.post<any>('contact/', contact);
   }
 }

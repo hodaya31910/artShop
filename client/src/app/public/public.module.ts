@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { RouterModule, Routes } from '@angular/router';
-import { NavModule } from '../components/nav/nav.module';
-import { FooterModule } from '../components/footer/footer.module';
+import { NavModule } from '../shared/components/nav/nav.module';
+import { FooterModule } from '../shared/components/footer/footer.module';
 import { PublicComponent } from './public.component';
 
 const routes: Routes = [
