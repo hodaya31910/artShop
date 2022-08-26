@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, Validators} from '@angular/forms';
+import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
+import {Router} from '@angular/router';
+import {AuthService} from '../shared/services/auth.service';
 
 @Component({
   selector: 'app-log-in-register',
@@ -7,24 +9,34 @@ import {FormControl, Validators} from '@angular/forms';
   styleUrls: ['./log-in-register.component.css']
 })
 export class LogInRegisterComponent implements OnInit {
-  showLogIn:boolean=true;
-  showRegister:boolean=false;
-  emailFormControl = new FormControl('', [
-    Validators.required,
-    Validators.email,
-  ]);
-  constructor() { }
 
-  ngOnInit() {
+  form: FormGroup;
+
+  constructor(private fb: FormBuilder,
+              private authService: AuthService,
+              private router: Router) {
+
+    this.form = this.fb.group({
+      email: ['', Validators.required],
+      password: ['', Validators.required]
+    });
   }
-old(){
-  this.showLogIn=false
-  this.showRegister=true
+ngOnInit() {
 }
-newuser(){
-this.showLogIn=true
-this.showRegister=false
-}
+
+  login() {
+    const val = this.form.value;
+
+    if (val.email && val.password) {
+      // this.authService.login(val.email, val.password)
+      //   .subscribe(
+      //     () => {
+      //       console.log('User is logged in');
+      //       this.router.navigateByUrl('/');
+      //     }
+      //   );
+    }
+  }
 
 
 }

@@ -1,45 +1,18 @@
-<form *ngIf="showLogIn">
+<form [formGroup]="form">
   <fieldset>
-    <legend>כניסה</legend>
-    <div class="form-group">
-      <label for="exampleInputEmail1"> מייל</label>
-      <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
-        placeholder="Enter email">
+    <legend>Login</legend>
+    <div class="form-field">
+      <label>Email:</label>
+      <input name="email" formControlName="email">
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">סיסמה</label>
-      <input type="password" class="form-control" id="Password1" placeholder="Password">
+    <div class="form-field">
+      <label>Password:</label>
+      <input name="password" formControlName="password"
+             type="password">
     </div>
   </fieldset>
-  <button type="submit" class="btn btn-secondary">כניסה</button><br>
-  <a (click)="old()">הרשמה</a>
+  <div class="form-buttons">
+    <button class="button button-primary"
+            (click)="login()">Login</button>
+  </div>
 </form>
-
-
-<form *ngIf="showRegister">
-  <fieldset>
-    <legend>הרשמה</legend>
-    <div class="form-group">
-      <label for="exampleInputfirstname">שם פרטי</label>
-      <input type="text" class="form-control" id="firstName" placeholder="שם פרטי">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputlastname">שם משפחה</label>
-      <input type="password" class="form-control" id="LastName" placeholder="שם משפחה">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1"> מייל</label>
-      <input type="email" class="form-control" id="Email2" aria-describedby="emailHelp"
-        placeholder=" מייל">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">סיסמה</label>
-      <input type="password" class="form-control" id="Password2" placeholder="סיסמה">
-    </div>
-  </fieldset>
-  <button type="submit" class="btn btn-secondary">הרשמה</button>
-<a (click)="newuser()">כניסה</a>
-</form>
-
-
-

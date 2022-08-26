@@ -1,5 +1,5 @@
-export class categories{
-    public Id?:number;
-    public name?:string
+export class Categories {
+    public Id?: number;
+    public name?: string;
 
 }

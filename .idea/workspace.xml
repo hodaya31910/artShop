@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab1f91d0-0aa3-471a-b9ba-0028f221f96d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/app/shared/auth/auth-interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/shared/models/user.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/services/generic/notification.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/services/generic/notification.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/log-in-register/log-in-register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/log-in-register/log-in-register.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/log-in-register/log-in-register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/log-in-register/log-in-register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/shared/models/categories.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/models/categories.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/shared/services/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/services/categories.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -50,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\הודיה\artShop\client\src\app\log-in-register" />
       <recent name="C:\Users\הודיה\artShop\client\src\app\shared" />
       <recent name="C:\Users\הודיה\artShop\client\src\assets" />
       <recent name="C:\Users\הודיה\artShop\client\src\app" />
@@ -71,11 +70,22 @@
       <workItem from="1660218028829" duration="1366000" />
       <workItem from="1660462283667" duration="1832000" />
       <workItem from="1661285331773" duration="6499000" />
-      <workItem from="1661494357636" duration="662000" />
+      <workItem from="1661494357636" duration="3687000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/app/shared/models/categories.model.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
