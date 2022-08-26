@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab1f91d0-0aa3-471a-b9ba-0028f221f96d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/app/shared/services/generic/helpers.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/shared/services/generic/notification.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/footer/footer.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/nav/nav.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/contact/contact.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/contact/contact.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/public/public.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/public/public.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/services/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/services/contact.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shop/shop.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shop/shop.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/notifications/notifications.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/shared/services/generic/notification.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/services/generic/notification.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +40,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/הודיה/artShop&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -81,7 +68,10 @@
       <workItem from="1656366458619" duration="29000" />
       <workItem from="1659878070417" duration="105000" />
       <workItem from="1659878260589" duration="12223000" />
-      <workItem from="1660218028829" duration="1233000" />
+      <workItem from="1660218028829" duration="1366000" />
+      <workItem from="1660462283667" duration="1832000" />
+      <workItem from="1661285331773" duration="6499000" />
+      <workItem from="1661494357636" duration="662000" />
     </task>
     <servers />
   </component>

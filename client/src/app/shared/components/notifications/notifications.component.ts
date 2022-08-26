@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject} from '@angular/core';
+import {Component, OnInit, Inject, HostListener} from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 @Component({
@@ -9,14 +9,29 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 export class NotificationsComponent implements OnInit {
 
   message: string;
-  constructor(@Inject(MAT_DIALOG_DATA) public data: any,
+  type: string;
+  constructor(@Inject(MAT_DIALOG_DATA)  public data: {
+                cancelText: string,
+                confirmText: string,
+                message: string,
+                title: string
+              },
               private dialogRef: MatDialogRef<NotificationsComponent>) {
-    if (data) {
-      this.message = data.message || this.message;
-      }
   }
 
   ngOnInit() {
   }
-
+  public cancel() {
+    this.close(false);
+  }
+  public close(value) {
+    this.dialogRef.close(value);
+  }
+  public confirm() {
+    this.close(true);
+  }
+  @HostListener('keydown.esc')
+  public onEsc() {
+    this.close(false);
+  }
 }

@@ -4,22 +4,20 @@ import {ContactComponent} from './contact.component';
 import { RouterModule, Routes } from '@angular/router';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
-import {NotificationService} from '../shared/services/generic/notification.service';
-import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
-import {NotificationsComponent} from '../shared/components/notifications/notifications.component';
+import {NotificationService} from '../shared/services/generic/notification.service';
 const routes: Routes = [
   { path: '', component: ContactComponent },
 ];
 
 @NgModule({
   providers: [NotificationService],
-  declarations: [ContactComponent, NotificationsComponent],
+  declarations: [ContactComponent],
   imports: [
     CommonModule, RouterModule.forChild(routes),
-    ReactiveFormsModule, MatInputModule, MatButtonModule, MatDialogModule
+    ReactiveFormsModule, MatInputModule, MatButtonModule
 
   ],
-  entryComponents: [NotificationsComponent]
+  entryComponents: []
 })
 export class ContactModule { }

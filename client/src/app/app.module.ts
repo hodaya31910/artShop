@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import {RouterModule, Routes} from '@angular/router';
+import {MatDialogModule} from '@angular/material/dialog';
 
 const routes: Routes = [
   { path: '', loadChildren: () => import('./public/public.module').then(m => m.PublicModule) },
@@ -23,7 +24,7 @@ const routes: Routes = [
     FormsModule,
     BrowserModule,
     RouterModule.forRoot(routes),
-    MatIconModule,
+    MatIconModule, MatDialogModule
   ],
   providers: [
   ],

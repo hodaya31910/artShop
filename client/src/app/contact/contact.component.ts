@@ -3,8 +3,6 @@ import {FormBuilder, FormGroup, NgForm, Validators} from '@angular/forms';
 import {ActivatedRoute, Router} from '@angular/router';
 import {ContactService} from '../shared/services/contact.service';
 import {NotificationService} from '../shared/services/generic/notification.service';
-import {MatDialog} from '@angular/material/dialog';
-import {NotificationsComponent} from '../shared/components/notifications/notifications.component';
 
 @Component({
   selector: 'app-contact',
@@ -15,7 +13,7 @@ export class ContactComponent implements OnInit {
   form: FormGroup;
   isSubmitted = false;
   constructor(private fb: FormBuilder, private contactService: ContactService,
-              private notificationService: NotificationService, private dialog: MatDialog) { }
+              private notificationService: NotificationService) { }
 
   ngOnInit() {
     this.form = this.fb.group({
@@ -27,23 +25,30 @@ export class ContactComponent implements OnInit {
   }
 
   submit() {
-    this.isSubmitted = true;
-    this.dialog.open(NotificationsComponent, {
-      data: { message: 'error' }
+    const options = {
+      title: 'CONFIRM.DOWNLOAD.JOB.TITLE',
+      message: 'CONFIRM.DOWNLOAD.JOB.MESSAGE',
+      cancelText: 'CONFIRM.DOWNLOAD.JOB.CANCELTEXT',
+      confirmText: 'CONFIRM.DOWNLOAD.JOB.CONFIRMTEXT'
+    };
+    this.notificationService.open(options);
+    this.notificationService.confirmed().subscribe(confirmed => {
+      if (confirmed) {
+        this.saveData();
+      }
     });
+
+    this.isSubmitted = true;
     if (this.form.valid) {
       this.contactService.contact(this.form.getRawValue()).subscribe(response => {
         if (response) {
-           this.dialog.open(NotificationsComponent, {
-            data: { message: 'הטופס נשלח בהצלחה'}
-          });
         }
       });
 
     }
-    this.dialog.open(NotificationsComponent, {
-      data: { message: 'error' }
-    });
+  }
+  saveData() {
+
   }
 
 }
