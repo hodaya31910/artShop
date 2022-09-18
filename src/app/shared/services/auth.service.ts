@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {User} from '../models/user.model';
-// import * as moment from moment;
+import {Subject} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -16,30 +16,48 @@ export class AuthService {
   //     .shareReplay();
   // }
 
-  private setSession(authResult) {
-    // const expiresAt = moment().add(authResult.expiresIn, 'second');
+  // tslint:disable-next-line:new-parens
+  loginStatus: Subject<boolean> = new Subject;
+  // tslint:disable-next-line:new-parens
+  userChanged = new Subject;
 
-    localStorage.setItem('id_token', authResult.idToken);
-    // localStorage.setItem('expires_at', JSON.stringify(expiresAt.valueOf()) );
+  isLoggedIn(): boolean {
+    return !!sessionStorage.getItem('user');
   }
 
-  logout() {
-    localStorage.removeItem('id_token');
-    localStorage.removeItem('expires_at');
+  login(user?: User): void {
+    sessionStorage.setItem('user', JSON.stringify(user));
+    this.loginStatus.next(true);
   }
 
-  public isLoggedIn() {
-    // return moment().isBefore(this.getExpiration());
+  logout(): void {
+    localStorage.clear();
+    sessionStorage.clear();
+    this.loginStatus.next(false);
   }
 
-  isLoggedOut() {
-    // return !this.isLoggedIn();
+  getUser(): any {
+    if (sessionStorage.getItem('user')) {
+      return JSON.parse(sessionStorage.getItem('user'));
+    }
+
+    return null;
   }
 
-  getExpiration() {
-    const expiration = localStorage.getItem('expires_at');
-    const expiresAt = JSON.parse(expiration);
-    // return moment(expiresAt);
+  getToken(): string {
+    if (sessionStorage.getItem('user')) {
+      return JSON.parse(sessionStorage.getItem('user')).token;
+    }
+
+    return null;
   }
+
+  setUser(user: any): void {
+    sessionStorage.setItem('user', JSON.stringify(user));
+    this.userChanged.next(true);
+  }
+
+
+
 
 }

@@ -8,8 +8,14 @@ import { MatIconModule } from '@angular/material/icon';
 import {RouterModule, Routes} from '@angular/router';
 import {MatDialogModule} from '@angular/material/dialog';
 
-const routes: Routes = [
+
+const routes = [
   { path: '', loadChildren: () => import('./public/public.module').then(m => m.PublicModule) },
+  // { path: 'register', loadChildren: () => import('app/public/register/register.module').then(m => m.RegisterModule) },
+  // { path: 'user', loadChildren: () => import('app/employer/employer.module').then(m => m.EmployerModule), canLoad: [EmployerGuard] },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
+  // { path: 'agent', loadChildren: () => import('app/agent/agent.module').then(m => m.AgentModule) },
+
   { path: '**', redirectTo: '' }
 ];
 

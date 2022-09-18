@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
+  links = [
+    {url: '/admin/orders', name: 'הזמנות'},
+    // {url: 'categories', name: 'categories' },
+    {url: '/admin/products', name: 'מוצרים'  },
+    {url: '/admin/users', name: 'משתמשים'}
+
+  ];
   constructor() { }
 
   ngOnInit() {

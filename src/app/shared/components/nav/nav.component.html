@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngFor="let link of links">
         <li class="nav-item px-2">
-          <a class="fw-medium brown nav-link" [routerLink]="['/', link.url]" routerLinkActive="active-menu-link">
+          <a class="fw-medium brown nav-link" [routerLink]="[ link.url]" routerLinkActive="active-menu-link">
             {{link.name}}</a>
         </li>
       </ul>
@@ -20,7 +20,7 @@
 
 
   <div class="text-left ">
-    <i class="fa fa-user brown ml-2"></i>
+    <i class="fa fa-user brown ml-2" [routerLink]="'/login'"></i>
     <i class="fa fa-shopping-cart brown ml-2" [matMenuTriggerFor]="appMenu"></i>
     <mat-menu #appMenu="matMenu">
       <ng-template matMenuContent>
