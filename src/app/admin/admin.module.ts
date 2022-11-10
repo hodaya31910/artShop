@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {AdminComponent} from './admin.component';
 import {NavModule} from '../shared/components/nav/nav.module';
+import { SideNavComponent } from './shared/side-nav/side-nav.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AdminComponent],
+  declarations: [AdminComponent, SideNavComponent],
   imports: [
     CommonModule, RouterModule, RouterModule.forChild(routes), NavModule,
 
